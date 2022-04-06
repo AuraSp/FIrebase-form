@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Form database</h2>
+    <div id='fadeOut' style='display: none;'>Your information has bent sent</div>
+    <form id='contactForm'>
+        <input type='text' placeholder='name' id='name' required>
+        <input type='text' placeholder='surname' id='surname' required>
+        <button type='submit'>Send</button>
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+    <script src='./index.js'></script>
+</body>
+
+</html>
